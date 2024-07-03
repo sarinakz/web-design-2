@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.swiper-slide img {
+  object-fit: contain;
+}
+.container-1 {
+  margin-top: 30px !important;
+}
+.section-3 {
+  margin-top: 50px !important;
+}
+.section-3-img > img {
+  width: 300px;
+}
